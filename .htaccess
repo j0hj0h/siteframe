@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+IndexIgnore */*
+
+# Allow cross-domain access for webfonts, to get them loaded when accessing without "www"
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
+
+# Turn on the RewriteEngine
+RewriteEngine On
+RewriteBase /
+
+#  Rules
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
