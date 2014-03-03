@@ -106,12 +106,10 @@ if(empty($include)) {
 		<?php include $include; ?>
 	
 	</div> <!-- container -->
-
-	<script type="text/javascript" src="<?php echo BASE_URL; ?>js/jquery.placeholder.min.js"></script>
+	
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?php echo BASE_URL; ?>tools/lightbox/js/lightbox.js"></script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>js/central.js"></script>
-	<script type="text/javascript" src="<?php echo BASE_URL; ?>js/retina.js"></script>
 
 </body>
 </html>

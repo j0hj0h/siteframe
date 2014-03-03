@@ -4,7 +4,7 @@
 
 define('ABSPATH', dirname(__FILE__) . '/');
 
-define('BASE_URL', "http://localhost:8888/site-frame");
+define('BASE_URL', "http://localhost:8888/site-frame/");
 
 date_default_timezone_set("Europe/Berlin");
 
