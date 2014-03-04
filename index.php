@@ -108,7 +108,6 @@ if(empty($include)) {
 	</div> <!-- container -->
 	
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?php echo BASE_URL; ?>bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>js/central.js"></script>
 
 </body>
