@@ -41,7 +41,7 @@ if(strpos($_SERVER['REQUEST_URI'], "?")) {
 }
 
 // URL prüfen, bei nicht alpha-numerischen Zeichen 404 senden
-if(preg_match('/[^a-zA-Z0-9\/\-]/', $path)) {
+if(preg_match('/[^a-zA-Z0-9\/\-\_]/', $path)) {
 	response404();
 }
 
