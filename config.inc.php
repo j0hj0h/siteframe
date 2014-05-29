@@ -8,5 +8,5 @@ define('BASE_URL', "http://localhost:8888/site-frame/");
 
 date_default_timezone_set("Europe/Berlin");
 
-define('DEBUG_MODE', false);
-define('MAIL_ERRORS', true);
+define('DEBUG_MODE', true);
+define('MAIL_ERRORS', false);
