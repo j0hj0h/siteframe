@@ -3,10 +3,10 @@
 // flag to ensure, that includes aren't called directly
 define('EXECUTE', true);
 
-// load config laden
+// load config
 require("config.inc.php");
 
-// debug mode initialisieren
+// initialize debug mode
 if(DEBUG_MODE) {
 	ini_set('display_errors', 1);
 	error_reporting(E_ALL);
